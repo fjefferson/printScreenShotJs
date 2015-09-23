@@ -1,8 +1,9 @@
-PrintScreenShot
+printWindowsCSS
 -------
+* Print you screen incluide(css,image) with Bootstrap. Save PDF or other extension.
+* Html2Canvas
 
-- Print you screen and save PDF or other extension.
-- Html2Canvas
-
-Exemples:
+Instalation / Run
+-------
+http://jsfiddle.net/jeffersonphp/k4Lt1oud/
 
