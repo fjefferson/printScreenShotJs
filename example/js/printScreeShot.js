@@ -1,8 +1,7 @@
 /*
-  PrintScreeShot 0.1 <>
-  Copyright (c) 2013 Niklas von Hertzen
+  PrintScreeShot 0.1
+  Copyright (c) 2015 Jefferson Oliveira
 
-  Released under MIT License
 */
 function printScreen(obj){
         html2canvas(obj, {
