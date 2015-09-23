@@ -10,9 +10,9 @@ Instalation / Run
 
 Libs
 -------
-``
+``'
 <button class="btn btn-success" onClick="javascript: printScreen(document.body);" type="button">
-``
+``'
 This example print all your screen, really all!
 
 Simple like that!
