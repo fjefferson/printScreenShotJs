@@ -10,7 +10,8 @@ Instalation / Run
 
 Libs
 -------
-```HTML
+
+```
 <button class="btn btn-success" onClick="javascript: printScreen(document.body);" type="button">
 ```
 
