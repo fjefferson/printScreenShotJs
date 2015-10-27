@@ -12,7 +12,9 @@ Call
 -------
 
 $(document).ready(function(){
-     $("#printbody").click(function(){    printScreen(document.body); });
+     $("#printbody").click(function(){
+          printScreen(document.body); 
+     });
 });
 
 
