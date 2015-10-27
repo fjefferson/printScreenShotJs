@@ -11,13 +11,12 @@ Installation / Run
 Call
 -------
 
-<script>
-   $(document).ready(function(){
-        $("#printbody").click(function(){
-            printScreen(document.body);
-        });
-   });
-</script>
+$(document).ready(function(){
+     $("#printbody").click(function(){
+         printScreen(document.body);
+     });
+});
+
 
 <button class="btn btn-success" id="printbody" type="button">
 
