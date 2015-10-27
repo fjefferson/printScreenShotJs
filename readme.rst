@@ -11,7 +11,6 @@ Installation / Run
 Call
 -------
 
-```
 <script>
    $(document).ready(function(){
         $("#printbody").click(function(){
@@ -21,7 +20,7 @@ Call
 </script>
 
 <button class="btn btn-success" id="printbody" type="button">
-```
+
 
 This example print all your screen, really all!
 
