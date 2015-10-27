@@ -11,9 +11,15 @@ Installation / Run
 Call
 -------
 
-```
-<button class="btn btn-success" onClick="javascript: printScreen(document.body);" type="button">
-```
+$(document).ready(function(){
+     $("#printbody").click(function(){
+          printScreen(document.body); 
+     });
+});
+
+
+<button class="btn btn-success" id="printbody" type="button">
+
 
 This example print all your screen, really all!
 
