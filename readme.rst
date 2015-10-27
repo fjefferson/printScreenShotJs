@@ -12,7 +12,15 @@ Call
 -------
 
 ```
-<button class="btn btn-success" onClick="javascript: printScreen(document.body);" type="button">
+<script>
+   $(document).ready(function(){
+        $("#printbody").click(function(){
+            printScreen(document.body);
+        });
+   });
+</script>
+
+<button class="btn btn-success" id="printbody" type="button">
 ```
 
 This example print all your screen, really all!
