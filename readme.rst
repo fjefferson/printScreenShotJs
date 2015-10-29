@@ -11,11 +11,11 @@ Installation / Run
 Call
 -------
 
-$(document).ready(function(){
-     $("#printbody").click(function(){
-          printScreen(document.body); 
-     });
-});
+<script type="text/javascript">
+	$(function(){
+		$(".printScreen").printScreen({hiddenItens:".notPrint", targetObj: $("#printScreen")});
+	});
+</script>
 
 
 <button class="btn btn-success" id="printbody" type="button">
