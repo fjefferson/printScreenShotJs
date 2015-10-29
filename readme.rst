@@ -13,7 +13,7 @@ Call
 
 <script type="text/javascript">
 	$(function(){
-		$(".printScreen").printScreen({hiddenItens:".notPrint", targetObj: $("#printScreen")});
+		$(".printScreen").printScreen();
 	});
 </script>
 
