@@ -1,39 +1,36 @@
-printWindowsCSS
-===================
+<h2 id="printwindowscss">printWindowsCSS</h2>
 
-> - Print you screen incluide(css,image) with Bootstrap. Save PDF or other extension.
-> - Html2Canvas
+<blockquote>
+  <ul>
+  <li>Print you screen incluide(css,image) with Bootstrap. Save PDF or other extension.</li>
+  <li>Html2Canvas</li>
+  </ul>
+</blockquote>
 
-Call
-===================
+<h2 id="call">Call</h2>
 
-```
-	$(function(){
-		$("#printScreenBtn").printScreen();
-	});
-```
+<pre><code>$(function(){
+    $("#printScreenBtn").printScreen();
+});
+</code></pre>
 
-Call button in HTML
+<p>Call button in HTML</p>
 
-```<button class="btn btn-success" id="printScreenBtn" type="button">```
+<pre><code>&lt;button class="btn btn-success" id="printScreenBtn" type="button"&gt;
+</code></pre>
 
+<p>This example print all your screen, really all!</p>
 
-This example print all your screen, really all!
+<p>Simple like that!</p>
 
-Simple like that!
+<h2 id="configuration">Configuration</h2>
 
-Configuration
-------- 
+<pre><code>$(".printScreenBtn").printScreen({hiddenItens:".notPrint", targetObj}); 
+</code></pre>
 
-```
-$(".printScreenBtn").printScreen({hiddenItens:".notPrint", targetObj}); 
-```
-
-
->- **hiddenItens**: Objects of your screen to be hidden when it generated the impression separed by "," ex: hiddenItens:".notPrint, #foo1, .foo2"
-
-> - **targetObj**: Element that will be picked up by print
-
-
-
-
+<blockquote>
+  <ul>
+  <li><p><strong>hiddenItens</strong>: Objects of your screen to be hidden when it generated the impression separed by “,” ex: hiddenItens:”.notPrint, #foo1, .foo2”</p></li>
+  <li><p><strong>targetObj</strong>: Element that will be picked up by print</p></li>
+  </ul>
+</blockquote>
