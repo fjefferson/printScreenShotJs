@@ -1,17 +1,17 @@
-printWindowsCSS
--------
+### printWindowsCSS
+
 * Print you screen incluide(css,image) with Bootstrap. Save PDF or other extension.
 * Html2Canvas
 
-Call
--------
+### Call
 
+```javascript
 <script type="text/javascript">
 	$(function(){
 		$("#printScreenBtn").printScreen();
 	});
 </script>
-
+```
 
 <button class="btn btn-success" id="printScreenBtn" type="button">
 
