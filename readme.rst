@@ -1,11 +1,14 @@
 printWindowsCSS
 --------------------
 
-
 * Print you screen incluide(css,image) with Bootstrap. Save PDF or other extension.
 * Html2Canvas
 
 
+Run
+---
+
+http://jsfiddle.net/jeffersonphp/wy4ny5q3
 
 
 Call
