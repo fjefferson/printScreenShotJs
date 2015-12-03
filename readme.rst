@@ -1,46 +1,37 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Hello!</title>
-<link rel="stylesheet" href="https://stackedit.io/res-min/themes/base.css" />
-<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML"></script>
-</head>
-<body><div class="container"><h2 id="printwindowscss">printWindowsCSS</h2>
+printWindowsCSS
+--------------------
 
-<blockquote>
-  <ul>
-  <li>Print you screen incluide(css,image) with Bootstrap. Save PDF or other extension.</li>
-  <li>Html2Canvas</li>
-  </ul>
-</blockquote>
 
-<h2 id="call">Call</h2>
+> - Print you screen incluide(css,image) with Bootstrap. Save PDF or other extension.
+> -  Html2Canvas
 
-<pre><code>$(function(){
-    $("#printScreenBtn").printScreen();
-});
-</code></pre>
 
-<p>Call button in HTML</p>
 
-<pre><code>&lt;button class="btn btn-success" id="printScreenBtn" type="button"&gt;
-</code></pre>
 
-<p>This example print all your screen, really all!</p>
+Call
+-------------------
 
-<p>Simple like that!</p>
+    $(function(){
+		$("#printScreenBtn").printScreen();
+	});
 
-<h2 id="configuration">Configuration</h2>
+Call button in HTML
 
-<pre><code>$(".printScreenBtn").printScreen({hiddenItens:".notPrint", targetObj}); 
-</code></pre>
+    <button class="btn btn-success" id="printScreenBtn" type="button">
 
-<blockquote>
-  <ul>
-  <li><p><strong>hiddenItens</strong>: Objects of your screen to be hidden when it generated the impression separed by “,” ex: hiddenItens:”.notPrint, #foo1, .foo2”</p></li>
-  <li><p><strong>targetObj</strong>: Element that will be picked up by print</p></li>
-  </ul>
-</blockquote></div></body>
-</html>
+
+This example print all your screen, really all!
+
+Simple like that!
+
+Configuration
+----------------
+    $(".printScreenBtn").printScreen({hiddenItens:".notPrint", targetObj}); 
+
+>- **hiddenItens**: Objects of your screen to be hidden when it generated the impression separed by "," ex: hiddenItens:".notPrint, #foo1, .foo2"
+
+> - **targetObj**: Element that will be picked up by print
+
+
+
+
