@@ -2,7 +2,8 @@ printWindowsCSS
 ===================
 
 > - Print you screen incluide(css,image) with Bootstrap. Save PDF or other extension.
-> -  Html2Canvas
+> - Html2Canvas
+
 Call
 ===================
 
@@ -23,6 +24,7 @@ Simple like that!
 
 Configuration
 ------- 
+
 ```
 $(".printScreenBtn").printScreen({hiddenItens:".notPrint", targetObj}); 
 ```
