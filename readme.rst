@@ -2,8 +2,8 @@ printWindowsCSS
 --------------------
 
 
-*Print you screen incluide(css,image) with Bootstrap. Save PDF or other extension.
-*Html2Canvas
+* Print you screen incluide(css,image) with Bootstrap. Save PDF or other extension.
+* Html2Canvas
 
 
 
