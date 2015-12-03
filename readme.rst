@@ -4,6 +4,10 @@ printScreenShotJs
 * Print you screen incluide(css,image) with Bootstrap. Save PDF or other extension.
 * Html2Canvas
 
+Dependences
+-----------
+* jQuery
+* lib/html2canvas.js
 
 Run
 ---
