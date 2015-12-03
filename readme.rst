@@ -1,4 +1,13 @@
-<h2 id="printwindowscss">printWindowsCSS</h2>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hello!</title>
+<link rel="stylesheet" href="https://stackedit.io/res-min/themes/base.css" />
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML"></script>
+</head>
+<body><div class="container"><h2 id="printwindowscss">printWindowsCSS</h2>
 
 <blockquote>
   <ul>
@@ -33,4 +42,5 @@
   <li><p><strong>hiddenItens</strong>: Objects of your screen to be hidden when it generated the impression separed by “,” ex: hiddenItens:”.notPrint, #foo1, .foo2”</p></li>
   <li><p><strong>targetObj</strong>: Element that will be picked up by print</p></li>
   </ul>
-</blockquote>
+</blockquote></div></body>
+</html>
