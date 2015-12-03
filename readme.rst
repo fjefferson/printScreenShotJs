@@ -1,27 +1,40 @@
-printWindowsCSS
--------
+printScreenShotJs
+--------------------
+
 * Print you screen incluide(css,image) with Bootstrap. Save PDF or other extension.
 * Html2Canvas
 
-Installation / Run
--------
-* http://jsfiddle.net/jeffersonphp/k4Lt1oud/
+
+Run
+---
+
+http://jsfiddle.net/jeffersonphp/wy4ny5q3
 
 
 Call
--------
+-------------------
 
-$(document).ready(function(){
-     $("#printbody").click(function(){
-          printScreen(document.body); 
-     });
-});
+    $(function(){
+		$("#printScreenBtn").printScreen();
+	});
 
+Call button in HTML
 
-<button class="btn btn-success" id="printbody" type="button">
+    <button class="btn btn-success" id="printScreenBtn" type="button">
 
 
 This example print all your screen, really all!
 
 Simple like that!
+
+Configuration
+----------------
+    $(".printScreenBtn").printScreen({hiddenItens:".notPrint", targetObj}); 
+
+>- **hiddenItens**: Objects of your screen to be hidden when it generated the impression separed by "," ex: hiddenItens:".notPrint, #foo1, .foo2"
+
+> - **targetObj**: Element that will be picked up by print
+
+
+
 
