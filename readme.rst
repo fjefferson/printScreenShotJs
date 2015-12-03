@@ -1,4 +1,4 @@
-printWindowsCSS
+printScreenShotJs
 --------------------
 
 * Print you screen incluide(css,image) with Bootstrap. Save PDF or other extension.
