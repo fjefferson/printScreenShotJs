@@ -1,0 +1,42 @@
+<html>
+	<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    	<script type="text/javascript" src="js/html2canvas.js"></script>
+		<script type="text/javascript" src="js/printScreeShot.js"></script>
+    </head>
+<body>
+
+<h1>You HTML here!</h1>
+<p>This content not pinted!</p>
+
+<div id="printThis" style="border: dashed 2px red; padding: 15px;">
+	
+	<p>
+		Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+		Duis vel hendrerit eros. 
+		Curabitur viverra consequat dolor quis porta. 
+		Aenean ac tincidunt massa, at ullamcorper est. 
+		Sed et eleifend mi. Proin auctor mauris massa, id imperdiet ex venenatis congue. 
+		Morbi ut maximus lacus, at placerat dolor. Ut blandit volutpat condimentum. 
+		Nam sollicitudin turpis ut eros elementum, sit amet blandit neque fermentum. Sed eu metus vitae turpis tincidunt ornare.
+	</p>
+
+	<img src="img/googlelogo_color_272x92dp.png" aligin='left' />
+
+</div>
+
+<br />
+
+<button type="button" class="printable">Imprimir</button>
+
+<script type="text/javascript">
+	$(function(){
+	   $(".printable").printScreen({
+				hiddenItens : "",
+				targetObj	: $("#printThis"),
+			});
+	});
+</script>
+
+</body>
+<html>
