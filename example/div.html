@@ -1,16 +1,16 @@
 <html>
 	<head>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-	<script type="text/javascript" src="../lib/html2canvas.js"></script>
-	<script type="text/javascript" src="../lib/printScreeShot.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+		<script type="text/javascript" src="../lib/html2canvas.js"></script>
+		<script type="text/javascript" src="../lib/printScreenShot.js"></script>
+		<link rel="stylesheet" type="text/css" href="http://getbootstrap.com/dist/css/bootstrap.min.css"/>
     </head>
 <body>
 
 <h1>You HTML here!</h1>
 <p>This content not pinted!</p>
 
-<div id="printThis" style="border: dashed 2px red; padding: 15px;">
-	
+<div id="printThis">
 	<p>
 		Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
 		Duis vel hendrerit eros. 
@@ -20,20 +20,17 @@
 		Morbi ut maximus lacus, at placerat dolor. Ut blandit volutpat condimentum. 
 		Nam sollicitudin turpis ut eros elementum, sit amet blandit neque fermentum. Sed eu metus vitae turpis tincidunt ornare.
 	</p>
-
-	<img src="img/googlelogo_color_272x92dp.png" aligin='left' />
-
 </div>
 
 <br />
 
-<button type="button" class="printable">Imprimir</button>
+<button type="button" class="printable">Print</button>
 
 <script type="text/javascript">
 	$(function(){
 	   $(".printable").printScreen({
-				hiddenItens : "",
-				targetObj	: $("#printThis"),
+				hiddenItens : "h1, .printable",
+				targetObj	: $("#printThis")
 			});
 	});
 </script>
