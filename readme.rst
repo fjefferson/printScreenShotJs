@@ -33,8 +33,9 @@ Simple like that!
 
 Configuration
 ----------------
-    $(".printScreenBtn").printScreen({hiddenItens:".notPrint", targetObj}); 
+    $(".printScreenBtn").printScreen({hiddenItens:".notPrint", targetObj: document.body, landScape: true}); 
 
 * **hiddenItens**: Objects on your screen to hide when it generate the impression separated by comma (,) ex: hiddenItens:".notPrint, #foo1, .foo2"
 
-* **targetObj**: Element that will be picked up by print
+* **targetObj**: Element that will be picked up by print.
+* **landScap**: Force print in landScape orientation.
