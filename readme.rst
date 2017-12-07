@@ -9,11 +9,6 @@ Dependenceis
 * jQuery
 * lib/html2canvas.js
 
-Run
----
-
-http://jsfiddle.net/jeffersonphp/wy4ny5q3
-
 
 Call
 -------------------
