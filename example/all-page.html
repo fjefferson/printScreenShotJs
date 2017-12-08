@@ -5,15 +5,43 @@
 	<script type="text/javascript" src="../lib/printScreenShot.js"></script>
 	<link rel="stylesheet" type="text/css" href="http://getbootstrap.com/dist/css/bootstrap.min.css"/>
 
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.4.3/js/mdb.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.4.3/css/mdb.min.css"/>
+  
+  
+  MDB JS:
+  
+  
 	<script type="text/javascript">
 		$(function(){
-		   $(".printable").printScreen();
+       $(".printable").printScreen({landScape: true});
+
+    var ctxPA = document.getElementById("polarChart").getContext('2d');
+    var myPolarChart = new Chart(ctxPA, {
+        type: 'polarArea',
+        data: {
+            labels: ["Red", "Green", "Yellow", "Grey", "Dark Grey"],
+            datasets: [
+                {
+                    data: [300, 50, 100, 40, 120],
+                    backgroundColor: ["#F7464A", "#46BFBD", "#FDB45C", "#949FB1", "#4D5360"],
+                    hoverBackgroundColor: ["#FF5A5E", "#5AD3D1", "#FFC870", "#A8B3C5", "#616774"]
+                }
+            ]
+        },
+        options: {
+            responsive: false
+        }    
+});
 		});
 	</script>	
 	</head>
 <body style="margin-top: 15px">
+<center><button type="button" class="btn btn-primary btn-lg printable"><i class="fa fa-print" aria-hidden="true"></i> Print All Page!</button></center>
 
-<center><button type="button" class="btn btn-primary btn-lg printable">Print All Page!</button></center>
+<canvas id="polarChart"></canvas>
+<p> </p>
+
 <div id="screenTarget">
 <!-- Fixed navbar -->
     <nav class="navbar navbar-inverse">
