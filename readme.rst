@@ -33,4 +33,4 @@ Configuration
 * **hiddenItens**: Objects on your screen to hide when it generate the impression separated by comma (,) ex: hiddenItens:".notPrint, #foo1, .foo2"
 
 * **targetObj**: Element that will be picked up by print.
-* **landScape**: Force print in landScape orientation.
+* **landScape**: Force print in landScape orientation, default is **false**.
